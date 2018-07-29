@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   dist/css/main.css"
+  },
+  "author": "Nitesh Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {}
+}
